@@ -20,6 +20,19 @@ Open http://127.0.0.1:4174/?preview=390 for the mobile review view. No package i
 
 ## Design source
 
+## Deploy on Render
+
+Create a Render Static Site connected to this repository, or use the included `render.yaml` Blueprint.
+
+- Branch: `main`
+- Build command: `node build.mjs`
+- Publish directory: `dist`
+- Root directory: leave blank
+
+The build copies only the website and assets into the publish directory. No environment variables or backend service are needed. Forms remain demonstration-only and do not send data.
+
+## Primary design submission
+
 [Clauson design submission in Figma](https://www.figma.com/design/4QXf4LP3XG04pUY1YoPhG8/Clauson-Disability-Design-System?node-id=5-146)
 
 Figma is the primary design submission. This repository preserves the local interaction prototype; it is not a claim of exact parity with the current Figma file. The dated review notes describe the prototype checks performed at that time.

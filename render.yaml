@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: clauson-disability-prototype
+    runtime: static
+    branch: main
+    buildCommand: node build.mjs
+    staticPublishPath: ./dist
