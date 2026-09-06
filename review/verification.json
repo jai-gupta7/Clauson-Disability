@@ -1,0 +1,117 @@
+{
+  "date": "2026-09-05",
+  "status": "disclosure_ui_redesign_pass_with_open_content_and_production_items",
+  "checks": {
+    "required_files": true,
+    "unique_ids": true,
+    "one_h1": true,
+    "modules_M01_M11": true,
+    "factors_F01_F16": true,
+    "scenarios_SC01_SC03": true,
+    "all_images_have_alt": true,
+    "questionnaire_seven_steps": true,
+    "questionnaire_validation_review_completion": true,
+    "email_has_label": true,
+    "forms_do_not_transmit": true,
+    "menu_accessibility": true,
+    "reduced_motion": true,
+    "immediate_anchor_navigation": true,
+    "local_dependencies_only": true,
+    "content_status_C01_C07": true,
+    "source_navigation_labels": true,
+    "source_assistance_copy": true,
+    "eligibility_structure_corrected": true,
+    "figma_content_depth_restored": true,
+    "source_newsletter_heading": true,
+    "brand_tokens": true,
+    "manual_h2_scale": true,
+    "accessible_comparison_tabs": true,
+    "single_open_comparison_category": true,
+    "comparison_export_nojs_complete": true,
+    "recognisable_social_icons": true,
+    "figma_questionnaire_boundary": true,
+    "exact_export_mode": true,
+    "polished_comparison_rows": true,
+    "case_review_targets_question": true,
+    "sticky_compact_header": true,
+    "information_and_action_surfaces": true,
+    "structured_payment_content": true,
+    "eligibility_progressive_disclosure": true,
+    "payment_summary_tabs": true,
+    "attached_scenario_explorer": true,
+    "local_selectors_nonsticky": true,
+    "interactive_results_skip_scroll_reveal": true,
+    "disclosure_export_nojs_complete": true,
+    "payment_content_current": true,
+    "evaluation_trust_follows_quiz": true,
+    "footer_content_groups": true,
+    "polished_hero_scale": true,
+    "subtle_scroll_reveal": true,
+    "scroll_reveal_once": true,
+    "scroll_accent_draw": true,
+    "scroll_reveal_export_safe": true,
+    "approved_text_pair_contrast": true,
+    "logo_visible_height_at_320_gte_25": true
+  },
+  "contrast_ratios": {
+    "green_on_cream": 7.91,
+    "green_on_mint": 7.6,
+    "cream_on_green": 7.91,
+    "black_on_orange": 6.41
+  },
+  "logo": {
+    "asset_px": [
+      536,
+      156
+    ],
+    "content_bbox_px": [
+      12,
+      12,
+      524,
+      144
+    ],
+    "minimum_visible_height_px_at_320": 27.08
+  },
+  "browser_review": {
+    "390_css_px": [
+      "polished opening",
+      "112 px sticky comparison navigator",
+      "descriptive non-sticky eligibility selectors",
+      "interactive payment summaries",
+      "attached three-tab scenario explorer",
+      "direct case-evaluation landing",
+      "footer groups"
+    ],
+    "320_css_px": [
+      "three-column comparison tabs",
+      "paired comparison rows",
+      "two-column eligibility/payment selectors",
+      "attached scenario tabs",
+      "no horizontal overflow"
+    ],
+    "comparison_tabs": "One category opens at a time; sticky navigation is 112 px high; click/touch, Arrow keys, Home and End activation verified",
+    "content_disclosure": "Eligibility uses descriptive program tabs; payment summary cards are the tabs; scenarios use three horizontal tabs attached to a stable result panel; print, export and no-JavaScript modes reveal every panel",
+    "menu": "expanded labels, Close state and Escape recovery verified",
+    "quiz": "Seven steps completed in browser; blank-answer and invalid-email validation, Back-state persistence, answer review and local no-transmission confirmation passed",
+    "scroll_motion": "Interactive results are excluded from scroll-reveal and render immediately; remaining structural targets retain one-time 10 px/260 ms entrances and reduced-motion/export fallbacks",
+    "newsletter": "invalid feedback returned focus to the Email field; no transmission",
+    "overflow": "document scroll width equalled viewport client width in reviewed 390 and 320 px states"
+  },
+  "images": {
+    "hero": [
+      1496,
+      901
+    ],
+    "ssi": [
+      1682,
+      1121
+    ]
+  },
+  "limits": [
+    "screen-reader software output, 200% zoom and forced colours were not tested",
+    "FAQ, Blog, social destinations, contact details and C06-C07 claims require owner verification",
+    "current live website phone differs from assignment source as checked 2026-09-05",
+    "linked Figma node 1:2168 was inspected directly; the current local HTML/CSS/JS remains the editable implementation",
+    "questionnaire Steps 2-7 are locally authored interaction content and require owner review before production use"
+  ]
+}
